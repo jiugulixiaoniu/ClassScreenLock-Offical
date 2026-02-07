@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassScreenLock - 协议文档</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 1px solid #eaeaea;
+            margin-bottom: 40px;
+        }
+        
+        .project-title {
+            font-size: 2.2rem;
+            font-weight: 300;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .project-description {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .documents-section {
+            width: 100%;
+            max-width: 800px;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: #34495e;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        
+        .document-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #eaeaea;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .document-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+        }
+        
+        .document-icon {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+        
+        .document-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .document-description {
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        
+        .document-link {
+            display: inline-block;
+            background-color: #f8f9fa;
+            color: #3498db;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            border: 1px solid #eaeaea;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+        
+        .document-link:hover {
+            background-color: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+        
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #24292e;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background-color 0.2s ease;
+        }
+        
+        .github-link:hover {
+            background-color: #444d56;
+        }
+        
+        .github-icon {
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid #eaeaea;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .documents-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header {
+                padding: 30px 10px;
+            }
+            
+            .project-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="project-title">ClassScreenLock</h1>
+        <p class="project-description">课堂屏幕锁定工具 - 协议与文档</p>
+    </header>
+    
+    <main class="container">
+        <section class="documents-section">
+            <h2 class="section-title">项目协议与文档</h2>
+            
+            <div class="documents-grid">
+                <!-- 用户协议 -->
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3 class="document-title">用户协议</h3>
+                    <p class="document-description">
+                        本协议规定了您使用ClassScreenLock软件的权利和义务。请在使用前仔细阅读。
+                    </p>
+                    <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/blob/main/UserAgreement.md" class="document-link" target="_blank">
+                        查看用户协议
+                    </a>
+                </div>
+                
+                <!-- 隐私政策 -->
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="document-title">隐私政策</h3>
+                    <p class="document-description">
+                        本政策说明了我们如何收集、使用和保护您的个人信息。我们重视您的隐私。
+                    </p>
+                    <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/blob/main/PrivacyPolicy.md" class="document-link" target="_blank">
+                        查看隐私政策（暂时没写）
+                    </a>
+                </div>
+                
+                <!-- 免责声明 -->
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3 class="document-title">免责声明</h3>
+                    <p class="document-description">
+                        本声明明确了软件使用的限制和责任范围。请在使用前了解相关风险。
+                    </p>
+                    <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/blob/main/Disclaimer.md" class="document-link" target="_blank">
+                        查看免责声明（暂时没写）
+                    </a>
+                </div>
+                
+                <!-- 开源许可证 -->
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="document-title">开源许可证</h3>
+                    <p class="document-description">
+                        本项目采用开源许可证。了解您可以和不可以对本软件进行的操作。
+                    </p>
+                    <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/blob/main/LICENSE" class="document-link" target="_blank">
+                        查看许可证
+                    </a>
+                </div>
+                
+                <!-- 使用指南 -->
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="document-title">使用指南</h3>
+                    <p class="document-description">
+                        了解如何安装、配置和使用ClassScreenLock工具的基本功能。
+                    </p>
+                    <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/blob/main/README.md" class="document-link" target="_blank">
+                        查看使用指南（暂时没写）
+                    </a>
+                </div>
+                
+                <!-- 常见问题 -->
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3 class="document-title">常见问题</h3>
+                    <p class="document-description">
+                        解答用户在使用ClassScreenLock过程中最常遇到的问题。
+                    </p>
+                    <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/blob/main/FAQ.md" class="document-link" target="_blank">
+                        查看常见问题（暂时没写）
+                    </a>
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="https://github.com/jiugulixiaoniu/ClassScreenLock" class="github-link" target="_blank">
+                    <i class="fab fa-github github-icon"></i>
+                    访问项目GitHub主页
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>ClassScreenLock &copy; 2026 - 当前年份 | 本页面仅为协议文档导航</p>
+        <p style="margin-top: 5px;">使用前请务必阅读并同意相关协议</p>
+    </footer>
+    
+    <script>
+        // 更新版权年份
+        document.addEventListener('DOMContentLoaded', function() {
+            const year = new Date().getFullYear();
+            const footerText = document.querySelector('.footer p');
+            footerText.textContent = footerText.textContent.replace('当前年份', year);
+        });
+    </script>
+</body>
+</html>
