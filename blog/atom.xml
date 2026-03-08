@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://classscreenlock.us.ci/blog</id>
+    <title>ClassScreenLock Blog</title>
+    <updated>2026-03-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://classscreenlock.us.ci/blog"/>
+    <subtitle>ClassScreenLock Blog</subtitle>
+    <icon>https://classscreenlock.us.ci/img/favicon-logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[关于 ClassScreenLock 暂停功能更新的公告]]></title>
+        <id>https://classscreenlock.us.ci/blog/suspension-notice</id>
+        <link href="https://classscreenlock.us.ci/blog/suspension-notice"/>
+        <updated>2026-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[发布日期: 2026 年 3 月 7 日]]></summary>
+        <content type="html"><![CDATA[<p><strong>发布日期:</strong> 2026 年 3 月 7 日<br>
+<strong>发布者:</strong> ClassScreenLock 开发者 JiuGuLiXiaoNiu</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="各位用户">各位用户：<a href="https://classscreenlock.us.ci/blog/suspension-notice#%E5%90%84%E4%BD%8D%E7%94%A8%E6%88%B7" class="hash-link" aria-label="各位用户：的直接链接" title="各位用户：的直接链接" translate="no">​</a></h2>
+<p>因本人即将参加福建省中考，需全力备考，<strong>自即日起至 2026 年 6 月 25 日，ClassScreenLock 将暂停所有功能更新。</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="暂停更新期间说明">暂停更新期间说明<a href="https://classscreenlock.us.ci/blog/suspension-notice#%E6%9A%82%E5%81%9C%E6%9B%B4%E6%96%B0%E6%9C%9F%E9%97%B4%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="暂停更新期间说明的直接链接" title="暂停更新期间说明的直接链接" translate="no">​</a></h2>
+<p>在此期间，我将仅对 <strong>GitHub Issues 中被列为二类及以上的安全问题</strong>进行修复。</p>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>重要提示</div><div class="admonitionContent_BuS1"><p>请注意，在此期间我<strong>不会主动进行问题自查或功能/问题调研</strong>，如遇问题请直接在 <a href="https://github.com/jiugulixiaoniu/ClassScreenLock/issues" target="_blank" rel="noopener noreferrer" class="">GitHub Issues</a> 中提交。</p></div></div>
+<p>所有功能更新将在 <strong>2026 年 6 月 25 日中考结束后恢复</strong>。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="时间安排">时间安排<a href="https://classscreenlock.us.ci/blog/suspension-notice#%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92" class="hash-link" aria-label="时间安排的直接链接" title="时间安排的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>暂停开始日期:</strong> 2026 年 3 月 7 日</li>
+<li class=""><strong>预计恢复日期:</strong> 2026 年 6 月 25 日 (中考结束后)</li>
+<li class=""><strong>暂停时长:</strong> 约 3 个半月</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="感谢与支持">感谢与支持<a href="https://classscreenlock.us.ci/blog/suspension-notice#%E6%84%9F%E8%B0%A2%E4%B8%8E%E6%94%AF%E6%8C%81" class="hash-link" aria-label="感谢与支持的直接链接" title="感谢与支持的直接链接" translate="no">​</a></h2>
+<p>感谢大家的理解与支持！</p>
+<p>让我们 2026 暑假再见！</p>
+<hr>
+<p><strong>ClassScreenLock 开发者</strong><br>
+<!-- -->JiuGuLiXiaoNiu<br>
+<!-- -->2026 年 3 月 7 日</p>]]></content>
+        <author>
+            <name>JiuGuLiXiaoNiu</name>
+            <uri>https://github.com/jiugulixiaoniu</uri>
+        </author>
+        <category label="公告，暂停更新" term="公告，暂停更新"/>
+    </entry>
+</feed>
