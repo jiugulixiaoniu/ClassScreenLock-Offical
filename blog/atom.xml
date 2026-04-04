@@ -42,6 +42,7 @@
             <name>JiuGuLiXiaoNiu</name>
             <uri>https://github.com/jiugulixiaoniu</uri>
         </author>
-        <category label="公告，暂停更新" term="公告，暂停更新"/>
+        <category label="公告" term="公告"/>
+        <category label="暂停更新" term="暂停更新"/>
     </entry>
 </feed>
